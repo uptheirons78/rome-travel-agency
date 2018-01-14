@@ -121,6 +121,9 @@ header nav li {
         padding: 20px 50px;
         flex-direction: column;
     }
+    header nav {
+        margin-right: 0;
+    }
     header h2 {
         margin-bottom: 15px;
     }
@@ -184,6 +187,29 @@ header nav li {
     }
     .hero a.btn {
         padding: 15px 40px;
+    }
+}
+@media (max-width: 580px) {
+    .hero h1 {
+        font-size: 36px;
+    }
+    .hero h3 {
+        font-size: 18px;
+    }
+    .hero a.btn {
+        padding: 15px 40px;
+    }
+}
+@media (max-width: 420px) {
+    .hero h1 {
+        font-size: 30px;
+    }
+    .hero h3 {
+        font-size: 14px;
+        margin-top: 2vh;
+    }
+    .hero a.btn {
+        padding: 10px 32px;
     }
 }
 
